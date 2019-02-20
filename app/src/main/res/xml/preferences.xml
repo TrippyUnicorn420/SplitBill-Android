@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="tip"
+        app:title="Tip percentage"
+        app:summary="How much of your bill should be the tip?" />
+
+    <Preference
+        app:key="feedback"
+        app:title="Send feedback"
+        app:summary="Drop by and say hi. Or yell at me."/>
+
+    <Preference
+        app:key="about"
+        app:title="About SplitBill..."/>
+
+</PreferenceScreen>

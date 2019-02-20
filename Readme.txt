@@ -1,0 +1,1 @@
+The actual source code that I wrote is inside /app/src/main/java/. Everything else was generated either by Gradle or Android Studio.
