@@ -1,4 +1,4 @@
-//package com.whatamidoingwithmylife.splitbill.deprecated;
+//package com.vita.splitbill.deprecated;
 //
 //import android.content.Intent;
 //import android.support.design.widget.TabLayout;
@@ -18,16 +18,16 @@
 //
 //import android.widget.Toast;
 //
-//import com.whatamidoingwithmylife.splitbill.R;
-////import com.whatamidoingwithmylife.splitbill.SubMenuViewModelFactory;
-//import com.whatamidoingwithmylife.splitbill.dialogs.BackDialog;
-//import com.whatamidoingwithmylife.splitbill.dialogs.YallDoneDialog;
+//import com.vita.splitbill.R;
+////import com.vita.splitbill.SubMenuViewModelFactory;
+//import com.vita.splitbill.dialogs.BackDialog;
+//import com.vita.splitbill.dialogs.YallDoneDialog;
 //
 //// This class was the class for the menu activity.
 //// I hate this class. Passionately.
 //
 //// I hated it so much that I deprecated it and
-//// replaced it with {@Link com.whatamidoingwithmylife.splitbill.NewMenuActivity}.
+//// replaced it with {@Link com.vita.splitbill.NewMenuActivity}.
 //// This class is useless now.
 //// While deprecating more stuff, this class kept throwing compile-time errors. I eventually
 //// got so annoyed and commented this whole thing out. It's now 100% useless.

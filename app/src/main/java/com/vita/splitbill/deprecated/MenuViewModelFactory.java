@@ -1,10 +1,10 @@
-//package com.whatamidoingwithmylife.splitbill.deprecated;
+//package com.vita.splitbill.deprecated;
 //
 //import android.app.Application;
 //import android.arch.lifecycle.ViewModel;
 //import android.arch.lifecycle.ViewModelProvider;
 //
-//import com.whatamidoingwithmylife.splitbill.MenuViewModel;
+//import com.vita.splitbill.MenuViewModel;
 //
 //// This is a ViewModelFactory. This here class exists for the Menu
 //// (and probably the SubMenu too) because I needed to pass ResID to

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.whatamidoingwithmylife.splitbill.SBSplash"
+    tools:context="com.vita.splitbill.SBSplash"
     tools:layout_editor_absoluteY="81dp"
     android:padding="8dp">
 
@@ -20,10 +20,10 @@
         android:layout_height="wrap_content"
         android:text="@string/splitbill_welcome2" />
 
-    <com.whatamidoingwithmylife.splitbill.RestaurantRecyclerView
+    <com.vita.splitbill.RestaurantRecyclerView
         android:id="@+id/recyclerview_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-    </com.whatamidoingwithmylife.splitbill.RestaurantRecyclerView>
+    </com.vita.splitbill.RestaurantRecyclerView>
 
 </LinearLayout>

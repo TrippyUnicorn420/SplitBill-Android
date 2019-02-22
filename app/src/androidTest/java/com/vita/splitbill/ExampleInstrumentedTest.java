@@ -1,4 +1,4 @@
-package com.whatamidoingwithmylife.splitbill;
+package com.vita.splitbill;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.whatamidoingwithmylife.spiltbill", appContext.getPackageName());
+        assertEquals("com.vita.spiltbill", appContext.getPackageName());
     }
 }

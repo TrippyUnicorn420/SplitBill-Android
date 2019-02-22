@@ -1,4 +1,4 @@
-//package com.whatamidoingwithmylife.splitbill.deprecated;
+//package com.vita.splitbill.deprecated;
 //
 //import android.arch.lifecycle.ViewModelProviders;
 //import android.content.Context;
@@ -9,9 +9,9 @@
 //import android.view.View;
 //import android.view.ViewGroup;
 //
-//import com.whatamidoingwithmylife.splitbill.MenuViewModel;
-//import com.whatamidoingwithmylife.splitbill.deprecated.MenuViewModelFactory;
-//import com.whatamidoingwithmylife.splitbill.R;
+//import com.vita.splitbill.MenuViewModel;
+//import com.vita.splitbill.deprecated.MenuViewModelFactory;
+//import com.vita.splitbill.R;
 //
 //public class PlaceholderFragment extends Fragment {
 //    /**

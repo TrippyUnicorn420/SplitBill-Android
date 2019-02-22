@@ -152,15 +152,8 @@
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
 
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
+    <string name="pref_title_display_name">What\'s your name?</string>
 
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
         <item>When possible</item>
@@ -218,4 +211,8 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_prefs">Settings</string>
+    <string name="pref_calc_tip">Tip Calculation</string>
+    <string name="pref_calc_tip_e">Should SplitBill calculate the tip?</string>
+    <string name="pref_share_as_text">Bill sharing...</string>
 </resources>

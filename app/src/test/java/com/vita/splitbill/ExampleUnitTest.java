@@ -1,4 +1,4 @@
-package com.whatamidoingwithmylife.splitbill;
+package com.vita.splitbill;
 
 import org.junit.Test;
 

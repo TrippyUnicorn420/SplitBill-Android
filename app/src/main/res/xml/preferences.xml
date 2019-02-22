@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Preference
-        app:key="tip"
-        app:title="Tip percentage"
-        app:summary="How much of your bill should be the tip?" />
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Basic Settings">
 
-    <Preference
-        app:key="feedback"
-        app:title="Send feedback"
-        app:summary="Drop by and say hi. Or yell at me."/>
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="tip"
+            android:title="Tip calculation"
+            android:summary="Should the tip be calculated?" />
 
-    <Preference
-        app:key="about"
-        app:title="About SplitBill..."/>
+        <android.support.v7.preference.EditTextPreference
+            android:key="feedback"
+            android:title="Send feedback"
+            android:summary="Drop by and say hi. Or yell at me."/>
 
-</PreferenceScreen>
+        <android.support.v7.preference.EditTextPreference
+            android:key="about"
+            android:title="About SplitBill..."
+            android:summary="Copyright © 2019 Vita Inc. All rights reserved."/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

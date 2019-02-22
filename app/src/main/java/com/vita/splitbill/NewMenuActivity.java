@@ -116,7 +116,7 @@ public class NewMenuActivity extends AppCompatActivity {
         ResID = getIntent().getExtras().getInt("ResID");
     }
 
-    // This method opens a {@Link com.whatamidoingwithmylife.splitbill.dialogs.BackDialog}
+    // This method opens a {@Link com.vita.splitbill.dialogs.BackDialog}
     // if the system back button is pressed, and the bill isn't empty.
     public void onBackPressed() {
          if (!TI84PLUS.isBillEmpty()) {

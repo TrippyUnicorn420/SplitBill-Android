@@ -1,4 +1,4 @@
-//package com.whatamidoingwithmylife.splitbill;
+//package com.vita.splitbill;
 //
 //import android.app.Application;
 //import android.arch.lifecycle.ViewModel;

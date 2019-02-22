@@ -1,4 +1,4 @@
-//package com.whatamidoingwithmylife.splitbill.deprecated;
+//package com.vita.splitbill.deprecated;
 //
 //import android.app.Activity;
 //import android.arch.lifecycle.Observer;
@@ -12,9 +12,9 @@
 //import android.widget.ArrayAdapter;
 //import android.widget.Spinner;
 //
-//import com.whatamidoingwithmylife.splitbill.MenuViewModel;
-//import com.whatamidoingwithmylife.splitbill.deprecated.MenuViewModelFactory;
-//import com.whatamidoingwithmylife.splitbill.R;
+//import com.vita.splitbill.MenuViewModel;
+//import com.vita.splitbill.deprecated.MenuViewModelFactory;
+//import com.vita.splitbill.R;
 //
 //public class MenuFragment extends Fragment {
 //    /**

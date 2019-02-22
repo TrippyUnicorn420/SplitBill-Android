@@ -5,6 +5,7 @@ import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
@@ -27,7 +28,7 @@ import java.util.List;
 // would end up first. It *is* possible to launch one
 // of the other activities directly and bypass this one
 // altogether by opening cmd and typing "adb shell am
-// start com.whatamidoingwithmylife.splitbill/.[Activ
+// start com.vita.splitbill/.[Activ
 // ityNameHere]", though it may cause a NullPointerRef
 // erence error and crash altogether. I haven't tried it.
 
@@ -66,7 +67,7 @@ public class SBSplash extends AppCompatActivity {
             }
         });
 
-        prefs = getSharedPreferences("com.whatamidoingwithmylife.splitbill", MODE_PRIVATE);
+        prefs = getSharedPreferences("com.vita.splitbill", MODE_PRIVATE);
     }
 
     // I've overridden this method so that it shows our lovely

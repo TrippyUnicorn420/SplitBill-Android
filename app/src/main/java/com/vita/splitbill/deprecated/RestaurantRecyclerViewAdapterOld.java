@@ -1,4 +1,4 @@
-//package com.whatamidoingwithmylife.splitbill;
+//package com.vita.splitbill;
 //
 //import android.content.Context;
 //import android.content.Intent;
@@ -10,8 +10,8 @@
 //import android.widget.ImageView;
 //import android.widget.TextView;
 //
-//import com.whatamidoingwithmylife.splitbill.deprecated.MenuActivity;
-//import com.whatamidoingwithmylife.splitbill.entities.Restaurant;
+//import com.vita.splitbill.deprecated.MenuActivity;
+//import com.vita.splitbill.entities.Restaurant;
 //
 //import java.util.List;
 //
