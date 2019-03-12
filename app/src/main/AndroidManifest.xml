@@ -24,7 +24,8 @@
             android:name=".SettingsActivity"
             android:label="Settings"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".SBSplash"/>
         <activity
             android:name=".BillActivity"
             android:label="@string/title_activity_bill"
