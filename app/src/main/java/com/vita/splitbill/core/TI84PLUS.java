@@ -8,20 +8,27 @@ import com.vita.splitbill.entities.Food;
 import java.util.ArrayList;
 import java.util.List;
 
-// This is the TI-84 PLUS, a graphing calculator.
-// This is pretty much the engine of SplitBill
-// and does all the meaty stuff that requires
-// big calculations to be made.
-// It also handles bill calculation.
+/**
+ * This is the Texas Instruments TI-84 PLUS Silver
+ * Edition, a graphing calculator. Handles bill calculation
+ * and fixes Menu/Submenu IDs.
+ *
+ * All methods are static.
+ *
+ * @author TrippyUnicorn420
+ * @version 1.0
+ */
 
-// Basically all the methods here are static because
-// I really don't want to make new calculator objects
-// every time I want to use this thing.
 public class TI84PLUS {
-
     private static List<Food> currentBill = new ArrayList<>();
 
-    // This method fixes the MenuID from the Spinner for the ViewPager.
+    /**
+     * Takes menuID and its corresponding resID, and makes menuID
+     * restaurant-independent for the ViewPager
+     * @param menuID: Primary key for the menu object
+     * @param resID: Foreign key linking to restaurant object
+     * @return fixedMenuID: MenuID independent of restaurant
+     */
     public static int fixMenuID(int menuID, int resID) {
         int fixedMenuID = 0;
 
@@ -69,7 +76,14 @@ public class TI84PLUS {
         return fixedMenuID;
     }
 
-    // This fixes the SubMenuID whenever the Fragment needs to get food.
+    /**
+     * Takes submenuID and its corresponding menuID and makes it menuID
+     * independent for when the {@link com.vita.splitbill.NewMenuActivity.MenuFragment}
+     * needs food
+     * @param subMenuID: Primary key of the SubMenu object
+     * @param menuID: Foreign key that linking to a Menu object
+     * @return fixedSubMenuID: a Menu-independent SubMenuID
+     */
     public static int fixSubMenuID(int subMenuID, int menuID) {
         int fixedSubMenuID = 0;
         switch (menuID) {
@@ -265,18 +279,20 @@ public class TI84PLUS {
         return fixedSubMenuID;
     }
 
-    // This basically checks if the Bill is empty.
-    // Self-explanatory.
+    /**
+     * Checks if the bill is empty.
+     *
+     * That's pretty much it.
+     * @return true if Bill is empty, false otherwise
+     */
     public static boolean isBillEmpty() {
-        if (currentBill.isEmpty()) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return currentBill.isEmpty();
     }
 
-    // This gets the bill in its raw form.
+    /**
+     * Returns the bill as List\<Food>.
+     * @return currentBill
+     */
     public static List<Food> getRawBill() {
         return currentBill;
     }

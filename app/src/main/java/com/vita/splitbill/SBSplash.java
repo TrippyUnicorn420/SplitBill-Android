@@ -23,16 +23,16 @@ import com.vita.splitbill.entities.Restaurant;
 
 import java.util.List;
 
-// This is the splash activity. If you tapped the icon
-// in the launcher to open the app, this is where you
-// would end up first. It *is* possible to launch one
-// of the other activities directly and bypass this one
-// altogether by opening cmd and typing "adb shell am
-// start com.vita.splitbill/.[Activ
-// ityNameHere]", though it may cause a NullPointerRef
-// erence error and crash altogether. I haven't tried it.
-
-// Okay, I've tried it. It causes a SecurityException.
+/**
+ * This is the splash activity. Also the launcher activity.
+ * Whatever you want to call it, really.
+ *
+ * When you tap the app icon on the launcher, this is where
+ * you end up first.
+ *
+ * @author TrippyUnicorn420
+ * @version 1.2
+ */
 
 public class SBSplash extends AppCompatActivity {
 
